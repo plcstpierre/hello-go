@@ -1,5 +1,5 @@
 FROM scratch
 
-ADD dist/hello /
+ADD dist/hello-go /
 
-CMD ["/hello"]
+CMD ["/hello-go"]
